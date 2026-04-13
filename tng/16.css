@@ -1,0 +1,10 @@
+.hide-box {
+  width: 200px;
+  height: 200px;
+  background-color: #b39a9a;
+  position: absolute;
+}
+
+.hide-box-visi-hidden {
+  opacity: 0;
+}
