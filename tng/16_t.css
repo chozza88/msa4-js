@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  padding: 15px;
+  position: absolute;
+}
+
+.box2 {
+  width: 100px;
+  height: 100px;
+}
+
+.busted {
+  background-color: cadetblue;
+}

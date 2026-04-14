@@ -37,7 +37,7 @@ randomLocation();
 const msgConsole = () => {
   alert("두근두근");
 };
-gameSearch.addEventListener("mouseover", msgConsole);
+gameSearch.addEventListener("mouseenter", msgConsole);
 let hidden = true;
 const msgComConsole = () => {
   if (hidden) {
