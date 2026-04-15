@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+}
+.card-img {
+  padding-top: 70%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 20px;
+}
+.button-box {
+  width: 50px;
+  height: 30px;
+  text-align: center;
+  background-color: #ccbbbbda;
+  border: none;
+  border-radius: 20px;
+  color: #ece8ae;
+  transition: all 0.5s;
+}
+.button-box:hover {
+  background-color: #cfb4b4;
+  cursor: pointer;
+}
