@@ -26,8 +26,6 @@ form.addEventListener("submit", (e) => {
   axios
     .get(url)
     .then((response) => {
-      console.log(response);
-
       // 카드들 넣을 컨테이너
       const container = document.querySelector(".container");
       container.textContent = "";
